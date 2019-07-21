@@ -4,7 +4,7 @@
 \alias{coin}
 \title{create a coin object}
 \usage{
-coin(object = c("heads", "tails"))
+coin(object = c("heads", "tails"), prob = c(0.5, 0.5))
 }
 \arguments{
 \item{object}{vector of length (both sides of the coin)}
@@ -14,4 +14,7 @@ a coin object
 }
 \description{
 create a coin object
+}
+\examples{
+coin()
 }
