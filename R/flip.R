@@ -1,4 +1,13 @@
-flip <- function(x, ...) UseMethod("flip")
+#' generic function for flipping an object
+#'
+#' @param x object to be flipped
+#' @param ... additional parameters
+#'
+#' @return vector of observed elements
+#' @export
+flip <- function(x, ...) {
+  UseMethod("flip")
+}
 
 #' flip a coin
 #'

@@ -3,4 +3,5 @@
 S3method(flip,coin)
 export(check_prob)
 export(coin)
+export(flip)
 export(rare_coin)
