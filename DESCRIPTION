@@ -1,0 +1,17 @@
+Package: coin
+Title: R Coin Object Example
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Abraham",
+           family = "Lincoln",
+           role = c("aut", "cre"),
+           email = "abe.lincoln@example.com")
+Description: This package provides an example of OOP using with R's S3 class. This object (the coin) mirrors the stucture seen in Gaston Sanchez's example at https://www.gastonsanchez.com/packyourcode/intro.html.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 2.1.0)
+Imports: 
+    assertthat
+RoxygenNote: 6.1.1
