@@ -22,7 +22,7 @@ coin <- function(object = c("heads", "tails"), prob = c(0.5, 0.5)) {
 #' @param name str, name of coin
 #' @param year int, year coin was made
 #' @param ... parameters to feed into \code{coin}
-#' superclass
+#' subclass
 #'
 #' @return rare_coin object
 #' @export

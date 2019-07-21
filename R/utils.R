@@ -18,3 +18,15 @@ check_prob <- function(prob) {
                          msg = "elements in 'prob' must add up to 1")
   TRUE
 }
+
+print.coin <- function(coin){
+  cat(paste0("Coin: ", coin[1], "/", coin[2], "\n"))
+  prob <- attr(coin, "prob")
+  cat(paste0("  Prob: ", prob[1], "/", prob[2], "\n"))
+}
+
+print.rare_coin <- function(coin){
+  cat(paste0("Rare coin: ", attr(coin, "name"),
+             ", ", attr(coin, "year"), "\n"))
+  print.coin(coin)
+}
